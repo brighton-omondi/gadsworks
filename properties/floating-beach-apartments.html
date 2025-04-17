@@ -7,7 +7,7 @@
     <title>Floating Beach Apartments - Gads Works Holdings LTD</title>
 
     <!--=====FAB ICON=======-->
-    <link rel="shortcut icon" href="assets/img/logo/fav-logo1.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/img/logo/fav-logo1.svg" type="image/x-icon">
 
     <!--=====FAVICON=======-->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple-touch-icon.png">
@@ -416,7 +416,7 @@
                                     </div>
                                 </div>
                                 <div class="space60"></div>
-                                <!--VIDEO-->
+                                <!--VIDEO--
                                 <div class="bg1">
                                     <h3>Play Video</h3>
                                     <div class="space32"></div>
@@ -432,7 +432,7 @@
                                     </div>
                                   </div>
                                   
-                                  <!-- Video Modal -->
+                                  <!-- Video Modal --
                                   <div id="videoModal" class="video-modal">
                                     <div class="video-content">
                                       <span class="close-btn">&times;</span>
@@ -443,7 +443,7 @@
                                     </div>
                                   </div>
                                   
-                                  <!-- CSS for modal (add to your stylesheet) -->
+                                  <!-- CSS for modal (add to your stylesheet) --
                                   <style>
                                   .video-modal {
                                     display: none;
@@ -481,7 +481,7 @@
                                   }
                                   </style>
                                   
-                                  <!-- JavaScript for modal -->
+                                  <!-- JavaScript for modal --
                                   <script>
                                   document.querySelector('.video-trigger').addEventListener('click', function(e) {
                                     e.preventDefault();
@@ -581,7 +581,7 @@
                         <div class="col-lg-4">
                             <div class="all-side-details">
                                 <div class="details-siderbar2">
-                                    <h4>Interested in Buying?</h4>
+                                    <h4>For more info, Contact us</h4>
                                     <div class="space24"></div>
                                     <div class="personal-info">
                                         <!-- <div class="img1">
@@ -600,25 +600,30 @@
                                         </div>
                                     </div>
                                     <div class="space10"></div>
-                                    <div class="input-area">
-                                        <input type="text" placeholder="Full Name">
-                                    </div>
-                                    <div class="input-area">
-                                        <input type="number" placeholder="Phone Number">
-                                    </div>
-                                    <div class="input-area">
-                                        <input type="email" placeholder="Email Address">
-                                    </div>
-                                    <div class="input-area">
-                                        <textarea placeholder="Your Message"></textarea>
-                                    </div>
-                                    <div class="input-area">
-                                        <button type="submit" class="theme-btn1">Find Properties <span class="arrow1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-                          <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
-                        </svg></span><span class="arrow2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-                          <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
-                        </svg></span></button>
-                                    </div>
+                                    <form action="<!-- Property form -->" method="POST"> 
+                                        <div class="row form">
+                                            <div class="input-area">
+                                                <input type="text" placeholder="Full Name" required>
+                                            </div>
+                                            <div class="input-area">
+                                                <input type="number" placeholder="Phone Number" required>
+                                            </div>
+                                            <div class="input-area">
+                                                <input type="email" placeholder="Email Address" required>
+                                            </div>
+                                            <div class="input-area">
+                                                <textarea placeholder="Your Message" required></textarea>
+                                            </div>
+                                            <div class="input-area">
+                                                <button type="submit" class="theme-btn1">Find Properties <span class="arrow1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                  <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
+                                </svg></span><span class="arrow2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                  <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
+                                </svg></span></button>
+                                            </div>
+                                        </div>
+                                    </form> <!-- Close form tag -->
+                                    
                                 </div>
                                 <div class="space30"></div>
                             </div>
@@ -629,19 +634,13 @@
         </div>
     </div>
 
-    <!-- <div class="propoerties-boxes-section">
+    <!-- <div class="propoerties-boxes-section">-->
+    <div class="propoerties-boxes-section">   
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="heading1 space-margin60">
-                        <h2>Our Latest Properties</h2>
-                        <div class="btn-area1">
-                            <a href="property-halfmap-grid.html" class="theme-btn1">See All Properties <span class="arrow1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-                    <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
-                  </svg></span><span class="arrow2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-                    <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
-                  </svg></span></a>
-                        </div>
+                        <h2>Other Properties</h2>
                     </div>
                 </div>
             </div>
@@ -650,249 +649,93 @@
                     <div class="single-slider-area owl-carousel">
                         <div class="property-boxarea">
                             <div class="img1 image-anime">
-                                <img src="assets/img/all-images/properties/property-img2.png" alt="Gads Works Holdings LTD">
+                                <img src="/assets/img/Jimka/exterior.jpg" alt="Gads Works Holdings LTD">
                             </div>
                             <div class="category-list">
                                 <ul>
-                                    <li><a href="property-details-v1.html">Featured</a></li>
-                                    <li><a href="property-details-v1.html">For Sale</a></li>
+                                    <li><a href="/properties/jimka-apartmrnts.html">Featured</a></li>
                                 </ul>
                             </div>
                             <div class="content-area">
-                                <a href="property-details-v1.html">Luxury Suite Villa</a>
+                                <a href="/properties/jimka-apartmrnts.html">Jimka Apartments</a>
                                 <div class="space18"></div>
-                                <p>Los Angeles City, CA, USA</p>
+                                <p>Milimani, Kisumu</p>
                                 <div class="space24"></div>
-                                <ul>
-                                    <li><a href="#"><img src="assets/img/icons/bed1.svg" alt="Gads Works Holdings LTD">x12</a></li>
-                                    <li><a href="#"><img src="assets/img/icons/bath1.svg" alt="Gads Works Holdings LTD">x16</a></li>
-                                    <li><a href="#"><img src="assets/img/icons/sqare1.svg" alt="Gads Works Holdings LTD">1200 sq</a></li>
-                                </ul>
-                                <div class="btn-area">
-                                    <a href="#" class="nm-btn">$820,000</a>
-                                    <a href="javascript:void(0)" class="heart"><img src="assets/img/icons/heart1.svg" alt="Gads Works Holdings LTD" class="heart1"> <img src="assets/img/icons/heart2.svg" alt="Gads Works Holdings LTD" class="heart2"></a>
-                                </div>
                             </div>
                         </div>
 
                         <div class="property-boxarea">
                             <div class="img1 image-anime">
-                                <img src="assets/img/all-images/properties/property-img4.png" alt="Gads Works Holdings LTD">
+                                <img src="/assets/img/milele/milele.jpg" alt="Gads Works Holdings LTD">
                             </div>
                             <div class="category-list">
                                 <ul>
-                                    <li><a href="property-details-v1.html">Featured</a></li>
-                                    <li><a href="property-details-v1.html">For Sale</a></li>
+                                    <li><a href="/properties/milele-apartments.html">Featured</a></li>
                                 </ul>
                             </div>
                             <div class="content-area">
-                                <a href="property-details-v1.html">Three Room Apartment</a>
+                                <a href="/properties/milele-apartments.html">Milele Apartments</a>
                                 <div class="space18"></div>
-                                <p>Los Angeles City, CA, USA</p>
+                                <p>Tom Mboya, Kisumu</p>
                                 <div class="space24"></div>
-                                <ul>
-                                    <li><a href="#"><img src="assets/img/icons/bed1.svg" alt="Gads Works Holdings LTD">x20</a></li>
-                                    <li><a href="#"><img src="assets/img/icons/bath1.svg" alt="Gads Works Holdings LTD">x30</a></li>
-                                    <li><a href="#"><img src="assets/img/icons/sqare1.svg" alt="Gads Works Holdings LTD">1200 sq</a></li>
-                                </ul>
-                                <div class="btn-area">
-                                    <a href="#" class="nm-btn">$820,000</a>
-                                    <a href="javascript:void(0)" class="heart"><img src="assets/img/icons/heart1.svg" alt="Gads Works Holdings LTD" class="heart1"> <img src="assets/img/icons/heart2.svg" alt="Gads Works Holdings LTD" class="heart2"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="property-boxarea">
-                            <div class="img1 image-anime">
-                                <img src="assets/img/all-images/properties/property-img6.png" alt="Gads Works Holdings LTD">
-                            </div>
-                            <div class="category-list">
-                                <ul>
-                                    <li><a href="property-details-v1.html">Featured</a></li>
-                                    <li><a href="property-details-v1.html">For Sale</a></li>
-                                </ul>
-                            </div>
-                            <div class="content-area">
-                                <a href="property-details-v1.html">Gorgeous Home for Sale</a>
-                                <div class="space18"></div>
-                                <p>Los Angeles City, CA, USA</p>
-                                <div class="space24"></div>
-                                <ul>
-                                    <li><a href="#"><img src="assets/img/icons/bed1.svg" alt="Gads Works Holdings LTD">x23</a></li>
-                                    <li><a href="#"><img src="assets/img/icons/bath1.svg" alt="Gads Works Holdings LTD">x34</a></li>
-                                    <li><a href="#"><img src="assets/img/icons/sqare1.svg" alt="Gads Works Holdings LTD">1200 sq</a></li>
-                                </ul>
-                                <div class="btn-area">
-                                    <a href="#" class="nm-btn">$820,000</a>
-                                    <a href="javascript:void(0)" class="heart"><img src="assets/img/icons/heart1.svg" alt="Gads Works Holdings LTD" class="heart1"> <img src="assets/img/icons/heart2.svg" alt="Gads Works Holdings LTD" class="heart2"></a>
-                                </div>
                             </div>
                         </div>
 
                         <div class="property-boxarea">
                             <div class="img1 image-anime">
-                                <img src="assets/img/all-images/properties/property-img2.png" alt="Gads Works Holdings LTD">
+                                <img src="/assets/img/vista/8.jpg" alt="Gads Works Holdings LTD">
                             </div>
                             <div class="category-list">
                                 <ul>
-                                    <li><a href="property-details-v1.html">Featured</a></li>
-                                    <li><a href="property-details-v1.html">For Sale</a></li>
+                                    <li><a href="/properties/vista-luxury-apartments.html">Featured</a></li>
                                 </ul>
                             </div>
                             <div class="content-area">
-                                <a href="property-details-v1.html">Luxury Suite Villa</a>
+                                <a href="/properties/vista-luxury-apartments.html">Vista Guculiro Apartments</a>
                                 <div class="space18"></div>
-                                <p>Los Angeles City, CA, USA</p>
+                                <p>Guculiro, Gasabo District, Kigali</p>
                                 <div class="space24"></div>
-                                <ul>
-                                    <li><a href="#"><img src="assets/img/icons/bed1.svg" alt="Gads Works Holdings LTD">x12</a></li>
-                                    <li><a href="#"><img src="assets/img/icons/bath1.svg" alt="Gads Works Holdings LTD">x16</a></li>
-                                    <li><a href="#"><img src="assets/img/icons/sqare1.svg" alt="Gads Works Holdings LTD">1200 sq</a></li>
-                                </ul>
-                                <div class="btn-area">
-                                    <a href="#" class="nm-btn">$820,000</a>
-                                    <a href="javascript:void(0)" class="heart"><img src="assets/img/icons/heart1.svg" alt="Gads Works Holdings LTD" class="heart1"> <img src="assets/img/icons/heart2.svg" alt="Gads Works Holdings LTD" class="heart2"></a>
-                                </div>
                             </div>
                         </div>
 
                         <div class="property-boxarea">
                             <div class="img1 image-anime">
-                                <img src="assets/img/all-images/properties/property-img4.png" alt="Gads Works Holdings LTD">
+                                <img src="/assets/img/Zerubabbel/zerubbabel.jpg" alt="Gads Works Holdings LTD">
                             </div>
                             <div class="category-list">
                                 <ul>
-                                    <li><a href="property-details-v1.html">Featured</a></li>
-                                    <li><a href="property-details-v1.html">For Sale</a></li>
+                                    <li><a href="/properties/zerubbabel-apartments.html">Featured</a></li>
                                 </ul>
                             </div>
                             <div class="content-area">
-                                <a href="property-details-v1.html">Three Room Apartment</a>
+                                <a href="/properties/zerubbabel-apartments.html">Zerubbabel Apartments</a>
                                 <div class="space18"></div>
-                                <p>Los Angeles City, CA, USA</p>
+                                <p>Milimani, Kisumu</p>
                                 <div class="space24"></div>
-                                <ul>
-                                    <li><a href="#"><img src="assets/img/icons/bed1.svg" alt="Gads Works Holdings LTD">x20</a></li>
-                                    <li><a href="#"><img src="assets/img/icons/bath1.svg" alt="Gads Works Holdings LTD">x30</a></li>
-                                    <li><a href="#"><img src="assets/img/icons/sqare1.svg" alt="Gads Works Holdings LTD">1200 sq</a></li>
-                                </ul>
-                                <div class="btn-area">
-                                    <a href="#" class="nm-btn">$820,000</a>
-                                    <a href="javascript:void(0)" class="heart"><img src="assets/img/icons/heart1.svg" alt="Gads Works Holdings LTD" class="heart1"> <img src="assets/img/icons/heart2.svg" alt="Gads Works Holdings LTD" class="heart2"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="property-boxarea">
-                            <div class="img1 image-anime">
-                                <img src="assets/img/all-images/properties/property-img6.png" alt="Gads Works Holdings LTD">
-                            </div>
-                            <div class="category-list">
-                                <ul>
-                                    <li><a href="property-details-v1.html">Featured</a></li>
-                                    <li><a href="property-details-v1.html">For Sale</a></li>
-                                </ul>
-                            </div>
-                            <div class="content-area">
-                                <a href="property-details-v1.html">Gorgeous Home for Sale</a>
-                                <div class="space18"></div>
-                                <p>Los Angeles City, CA, USA</p>
-                                <div class="space24"></div>
-                                <ul>
-                                    <li><a href="#"><img src="assets/img/icons/bed1.svg" alt="Gads Works Holdings LTD">x23</a></li>
-                                    <li><a href="#"><img src="assets/img/icons/bath1.svg" alt="Gads Works Holdings LTD">x34</a></li>
-                                    <li><a href="#"><img src="assets/img/icons/sqare1.svg" alt="Gads Works Holdings LTD">1200 sq</a></li>
-                                </ul>
-                                <div class="btn-area">
-                                    <a href="#" class="nm-btn">$820,000</a>
-                                    <a href="javascript:void(0)" class="heart"><img src="assets/img/icons/heart1.svg" alt="Gads Works Holdings LTD" class="heart1"> <img src="assets/img/icons/heart2.svg" alt="Gads Works Holdings LTD" class="heart2"></a>
-                                </div>
                             </div>
                         </div>
 
                         <div class="property-boxarea">
                             <div class="img1 image-anime">
-                                <img src="assets/img/all-images/properties/property-img2.png" alt="Gads Works Holdings LTD">
+                                <img src="/assets/img/gads-office/1.jpg" alt="Gads Works Holdings LTD">
                             </div>
                             <div class="category-list">
                                 <ul>
-                                    <li><a href="property-details-v1.html">Featured</a></li>
-                                    <li><a href="property-details-v1.html">For Sale</a></li>
+                                    <li><a href="/properties/gadsworks-office.html">Featured</a></li>
                                 </ul>
                             </div>
                             <div class="content-area">
-                                <a href="property-details-v1.html">Luxury Suite Villa</a>
+                                <a href="/properties/gadsworks-office.html">Gads Works Holdings Offices</a>
                                 <div class="space18"></div>
-                                <p>Los Angeles City, CA, USA</p>
+                                <p>Industrial area, Mombasa road, Nairobi</p>
                                 <div class="space24"></div>
-                                <ul>
-                                    <li><a href="#"><img src="assets/img/icons/bed1.svg" alt="Gads Works Holdings LTD">x12</a></li>
-                                    <li><a href="#"><img src="assets/img/icons/bath1.svg" alt="Gads Works Holdings LTD">x16</a></li>
-                                    <li><a href="#"><img src="assets/img/icons/sqare1.svg" alt="Gads Works Holdings LTD">1200 sq</a></li>
-                                </ul>
-                                <div class="btn-area">
-                                    <a href="#" class="nm-btn">$820,000</a>
-                                    <a href="javascript:void(0)" class="heart"><img src="assets/img/icons/heart1.svg" alt="Gads Works Holdings LTD" class="heart1"> <img src="assets/img/icons/heart2.svg" alt="Gads Works Holdings LTD" class="heart2"></a>
-                                </div>
                             </div>
                         </div>
-
-                        <div class="property-boxarea">
-                            <div class="img1 image-anime">
-                                <img src="assets/img/all-images/properties/property-img4.png" alt="Gads Works Holdings LTD">
-                            </div>
-                            <div class="category-list">
-                                <ul>
-                                    <li><a href="property-details-v1.html">Featured</a></li>
-                                    <li><a href="property-details-v1.html">For Sale</a></li>
-                                </ul>
-                            </div>
-                            <div class="content-area">
-                                <a href="property-details-v1.html">Three Room Apartment</a>
-                                <div class="space18"></div>
-                                <p>Los Angeles City, CA, USA</p>
-                                <div class="space24"></div>
-                                <ul>
-                                    <li><a href="#"><img src="assets/img/icons/bed1.svg" alt="Gads Works Holdings LTD">x20</a></li>
-                                    <li><a href="#"><img src="assets/img/icons/bath1.svg" alt="Gads Works Holdings LTD">x30</a></li>
-                                    <li><a href="#"><img src="assets/img/icons/sqare1.svg" alt="Gads Works Holdings LTD">1200 sq</a></li>
-                                </ul>
-                                <div class="btn-area">
-                                    <a href="#" class="nm-btn">$820,000</a>
-                                    <a href="javascript:void(0)" class="heart"><img src="assets/img/icons/heart1.svg" alt="Gads Works Holdings LTD" class="heart1"> <img src="assets/img/icons/heart2.svg" alt="Gads Works Holdings LTD" class="heart2"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="property-boxarea">
-                            <div class="img1 image-anime">
-                                <img src="assets/img/all-images/properties/property-img6.png" alt="Gads Works Holdings LTD">
-                            </div>
-                            <div class="category-list">
-                                <ul>
-                                    <li><a href="property-details-v1.html">Featured</a></li>
-                                    <li><a href="property-details-v1.html">For Sale</a></li>
-                                </ul>
-                            </div>
-                            <div class="content-area">
-                                <a href="property-details-v1.html">Gorgeous Home for Sale</a>
-                                <div class="space18"></div>
-                                <p>Los Angeles City, CA, USA</p>
-                                <div class="space24"></div>
-                                <ul>
-                                    <li><a href="#"><img src="assets/img/icons/bed1.svg" alt="Gads Works Holdings LTD">x23</a></li>
-                                    <li><a href="#"><img src="assets/img/icons/bath1.svg" alt="Gads Works Holdings LTD">x34</a></li>
-                                    <li><a href="#"><img src="assets/img/icons/sqare1.svg" alt="Gads Works Holdings LTD">1200 sq</a></li>
-                                </ul>
-                                <div class="btn-area">
-                                    <a href="#" class="nm-btn">$820,000</a>
-                                    <a href="javascript:void(0)" class="heart"><img src="assets/img/icons/heart1.svg" alt="Gads Works Holdings LTD" class="heart1"> <img src="assets/img/icons/heart2.svg" alt="Gads Works Holdings LTD" class="heart2"></a>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <!--===== PROPERTIES AREA ENDS =======-->
 
     <!--===== CTA AREA STARTS =======-->
